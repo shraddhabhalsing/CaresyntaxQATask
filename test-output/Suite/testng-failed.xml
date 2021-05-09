@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="expectedProduct" value="0"/>
+    <parameter name="expectedProduct1" value="1"/>
+    <parameter name="productName" value="Drucker"/>
+    <classes>
+      <class name="com.qa.testcases.AmazonPageTest">
+        <methods>
+          <include name="verifyItemsInCart"/>
+          <include name="basicSetUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.testcases.AmazonPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

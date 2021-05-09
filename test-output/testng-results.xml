@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="127872" started-at="2021-05-09T16:37:13 CEST" finished-at="2021-05-09T16:39:21 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="127872" started-at="2021-05-09T16:37:13 CEST" finished-at="2021-05-09T16:39:21 CEST">
+      <class name="com.qa.testcases.AmazonPageTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="basicSetUp" is-config="true" duration-ms="1582" started-at="2021-05-09T16:37:13 CEST" finished-at="2021-05-09T16:37:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="launchURL" duration-ms="3626" started-at="2021-05-09T16:37:15 CEST" finished-at="2021-05-09T16:37:19 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="loginAmazon(java.lang.String, java.lang.String)[pri:2, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="loginAmazon" duration-ms="10000" started-at="2021-05-09T16:37:20 CEST" data-provider="passSheet" finished-at="2021-05-09T16:37:30 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shra_testb@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon@01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAmazon -->
+        <test-method status="PASS" signature="selectFirstProduct(java.lang.String, int)[pri:3, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="selectFirstProduct" duration-ms="12832" started-at="2021-05-09T16:37:30 CEST" finished-at="2021-05-09T16:37:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drucker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFirstProduct -->
+        <test-method status="PASS" signature="addFirstProductToCart()[pri:4, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="addFirstProductToCart" duration-ms="16312" started-at="2021-05-09T16:37:43 CEST" finished-at="2021-05-09T16:37:59 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstProductToCart -->
+        <test-method status="PASS" signature="selectSecondProduct(java.lang.String, int)[pri:5, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="selectSecondProduct" duration-ms="11871" started-at="2021-05-09T16:37:59 CEST" finished-at="2021-05-09T16:38:11 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drucker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSecondProduct -->
+        <test-method status="PASS" signature="addSecondProductToCart()[pri:6, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="addSecondProductToCart" duration-ms="16026" started-at="2021-05-09T16:38:11 CEST" finished-at="2021-05-09T16:38:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondProductToCart -->
+        <test-method status="PASS" signature="verifyItemsInCart()[pri:7, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="verifyItemsInCart" duration-ms="2788" started-at="2021-05-09T16:38:27 CEST" finished-at="2021-05-09T16:38:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsInCart -->
+        <test-method status="PASS" signature="verifySaveProductForLater()[pri:8, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="verifySaveProductForLater" duration-ms="29104" started-at="2021-05-09T16:38:30 CEST" finished-at="2021-05-09T16:38:59 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveProductForLater -->
+        <test-method status="PASS" signature="verifyMoveProductBackToBasket()[pri:9, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="verifyMoveProductBackToBasket" duration-ms="16849" started-at="2021-05-09T16:38:59 CEST" finished-at="2021-05-09T16:39:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoveProductBackToBasket -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testcases.AmazonPageTest@37374a5e]" name="closeBrowser" is-config="true" duration-ms="5330" started-at="2021-05-09T16:39:16 CEST" finished-at="2021-05-09T16:39:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testcases.AmazonPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
